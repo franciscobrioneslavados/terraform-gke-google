@@ -1,2 +1,3 @@
 .terraform
 terraform-gkecluster-keyfile.json
+.terraform.lock.hcl
