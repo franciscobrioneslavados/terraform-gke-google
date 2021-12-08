@@ -1,0 +1,11 @@
+credentials        = "./terraform-gkecluster-keyfile.json"
+project_id         = "provisiones-demo-02"
+region             = "us-central1"
+zones              = ["us-central1-a", "us-central1-b", "us-central1-c"]
+name               = "gke-cluster"
+machine_type       = "g1-small" # Compute Engine with 1 vCPU and 1.7 GB memory
+min_count          = 1
+max_count          = 3
+disk_size_gb       = 10
+service_account    = "gke-provision-demo-sc@provisiones-demo-02.iam.gserviceaccount.com"
+initial_node_count = 3
